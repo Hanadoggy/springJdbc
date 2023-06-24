@@ -44,6 +44,7 @@ public class ConnectionTest {
 
         useDataSource(dataSource);
         Thread.sleep(1000);
+        // 로그를 확인하려면 resources에 logback.xml 파일 추가 필요
     }
 
     private void useDataSource(DataSource dataSource) throws SQLException {
